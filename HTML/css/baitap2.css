@@ -1,0 +1,52 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.khung1 {
+	width: 740px;
+	height: 700px;
+	border: 1px solid black;
+}
+.khung2 {
+	width: 100%;
+	height: 75%;
+	padding: 0px;
+	margin: 0px;
+	float: top;
+	
+}
+.khung4 {
+	
+	float: bottom;
+	width: 100%;
+	height: 100%;
+	
+}
+.khung3 {
+	width: 32%;
+	padding: 2px 0px 0px 8px;
+	margin: 0px;
+	float: left;
+}
+
+
+img{
+	width: 98%;
+	height: 85%;
+}
+a{
+	text-decoration: none;
+	color: #270404;
+	size: 25px;
+
+}
+a p {
+	
+	font-family: 'IBM Plex Serif', serif;
+	color: #230404;
+	
+}
+p {
+	color: #00000078;
+}

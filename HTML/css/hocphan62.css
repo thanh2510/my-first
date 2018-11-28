@@ -1,0 +1,78 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.body{ 
+	height: 642px;
+	width: 1351px;
+	position: relative;
+	z-index: 0;
+	 
+
+ }
+
+.khung1 {
+	width: 100%;
+	height: 100%;
+	position: absolute;  
+	z-index: 1;
+	background-color: #141414;
+	 background-image: url(../img/7.jpg);
+	background-image: rgba(255, 0, 0, 0.5);
+	/*background-image: linear-gradient(to right,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%) cái này la 10 còn 1 là ảnh;
+*/
+}
+.khung11 h1{
+	position: absolute;
+	z-index: 20;
+	margin: 6%;
+ 	float: left;
+ 	color: red;
+ 	font-size: 40px;
+ 	
+}
+
+
+.khung12{
+	position: absolute;
+	z-index: 20;
+	font-size: 40px;
+	color: white;
+	margin: 20% 6%;
+ 	float: left;
+ 	font-family: 'Merriweather Sans', sans-serif;
+}
+.khung13 {
+	width: 100%;
+	margin-top: 97px;
+	margin-left: 1080px;
+	position: absolute;
+	z-index: 20;
+}
+.khung13 a{
+
+	text-decoration: none;
+	margin: 7% 90px;
+	font-size: 20px;
+
+	border: red solid 5px;
+	border-radius: 5px ;
+	color: white;
+	background-color: red;
+}
+.khung13 a:hover {
+	border: red solid 7px;
+	font-size: 22px;
+	padding: 2px;
+}
+.khung2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-image: linear-gradient(to right,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+}
+
+h3 p {
+	color: red;
+}

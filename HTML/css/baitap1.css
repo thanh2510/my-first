@@ -1,0 +1,28 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.khung1 {
+	border: 1px solid black;
+	width: 1200px;
+}
+.khung2 {
+	width: 24%;
+	padding: 4px 2px;
+	text-align: center;
+	float: left;
+
+
+}
+a {
+	width: 24%;
+	text-decoration: none;
+	color: #523535;
+	text-align: center;
+	size: 15px;
+
+}
+
+img {
+	width: 100%;
+}

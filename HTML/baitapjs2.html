@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>home</title>
+	<link rel="stylesheet" href="css/baitapjs2.css">
+</head>
+<body>
+	<div class="khunghome" style="margin-left: 90px;  width: 1171px;height: 54px; background-color: #00000082;position: relative;">
+			<div class="Home">
+				
+			<ul>
+			    <li>Home</li>
+			    <li>About</li>
+			    <li>Service</li>
+			    <li>Gallery</li>
+			    <li>Pages</li>
+			    <li>Blog</li>
+			    <li>Contact Us</li>
+			   
+			</ul>
+			</div>
+			<div class="khungde" >
+				
+			</div>
+			<div class="Donate">
+				<p >Donate Now</p>
+			</div>
+		</div>
+		<div style="padding:15px 15px 2500px;font-size:30px">
+  <p><b>This example demonstrates how to slide down a navbar when the user starts to scroll the page.</b></p>
+  <p>Scroll down this frame to see the effect!</p>
+  <p>Scroll to the top to hide the navbar.</p>
+  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+</body>
+<SCRIPT SRC="">
+	
+
+
+	
+WINDOW.ONSCROLL = FUNCTION() {SCROLLFUNCTION()};
+
+FUNCTION SCROLLFUNCTION() {
+    IF (DOCUMENT.BODY.SCROLLTOP > 20 || DOCUMENT.DOCUMENTELEMENT.SCROLLTOP > 20) {
+        DOCUMENT.GETELEMENTBYCLASSNAME("KHUNGHOME")[0].STYLE.TOP = "0PX";
+    } ELSE {
+        DOCUMENT.GETELEMENTBYCLASSNAME("KHUNGHOME")[0].STYLE.TOP = "-50PX";
+    }
+}
+</SCRIPT>
+</html>

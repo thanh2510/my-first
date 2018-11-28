@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/baitapjs3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+</head>
+<body>
+	<div class="backgruond">
+		<div class="unugdung">
+			<ul>
+			    <li>Gmail</li>
+			    <li>Hình ảnh</li>
+			
+			    	<li><span onclick="ungdung()"><i class="fas fa-th" ></i></span>
+</li>  
+			    	<li><span onclick="thongbao()"><i class="fas fa-bell"></i></span>
+</li>   
+			    	<li><span onclick="anhmail()"><img src="img/14.jpg" alt=""></span>
+			</li>
+			</ul>
+		
+		</div>
+		<div class="google">
+			<img src="img/google.png" alt="">
+		</div>
+		<div class="khungnhap">
+			<div class="khungnhaptext"  >
+				<input type="text" name="input">
+			</div>
+			<div class="iconkhunnhap">
+				<i class="fas fa-keyboard"></i>
+				<i class="fas fa-microphone"></i>
+			</div>
+		</div>
+		
+		<div class="timvoigoogle">
+		
+				<span id="spantext1"> Tìm với Google </span>
+				<span id="spantext2"> Xem trang đầu tiên tìm được </span>
+			
+			
+		</div>
+		<div class="cungcap">
+			<p>Google được cung cấp tại: <a href="">English</a> <a href="">Français</a> <a href="">中文（繁體）</a></p>
+			
+		</div>
+		<div class="vietnam">
+
+			Việt Nam
+		</div>
+		<div class="vietnam2">
+			<ul>
+			    <li>Quảng Cáo</li>
+			    <li>Doanh Nghiệp</li>
+			    <li>Giới Thiệu</li>
+			    <li>Bảo Mật</li>
+			    <li>Điều Khoản</li>
+			
+			    <li>Cài Đặt</li>
+			</ul>
+		</div>
+		<div class="bangungdung">
+			<div class="bangungdung1">
+				<div class="bangungdung11">
+					<img name="anh1" src="img/a.png" alt="">
+					<br>
+					<br>
+					<p name="google">Google</p>
+				</div>
+					<div class="bangungdung11">
+					<img name="anh2" src="img/d.png" alt="">
+					<br>
+					<p name="google2">Google setting</p>
+				</div>
+					<div class="bangungdung11">
+					<img name="anh3" src="img/c.png" alt="">
+					<br>
+					<p name="google3">Google map</p>
+				</div>
+			</div>
+		</div>
+		<div class="bangungdungnho">
+			
+		</div>
+	</div>
+</body>
+<script >
+	var a=0;
+		
+		function ungdung(){
+			// document.getElementsByClassName("bangungdung")[0].classList.remove('hammoblock');
+			document.getElementsByClassName("bangungdung")[0].classList.toggle('hammoblock');
+		}
+	</script>
+</html>

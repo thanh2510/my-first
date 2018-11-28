@@ -1,0 +1,65 @@
+alert('text') : hiện bảng thông báo 
+var name="hello" ( khai báo biến )
+	+ các phép tính cộng trừ nhân chia  
+console.log()
+	*  document.getElenmentById("tên").innerHTML ="hello word " ==> add nội dung vò thể ( láy phần tuer có d là demo trong html 	document.getElementById('demo').innerHTML )\
+
+	* document.getElementsByClassName('demo')[0].innerHTML( n sẽ cho ra một mảng tất cả các phần tử vì class có thể tên trùng nhau ==> 0 là cái đầu tiên  )
+
+	* dùng + để tích hợp hai câu lệnh ( chuỗi + số = chuỗi )
+	* mảng : 
+	* funciton : hàm ( function tên();) 
+				===> 
+					mỗi lần thấy tên hàm thì n sẽ tự 			   
+					tìm tới hàm để thực thi 
+		+ function GioiThieuBanThan(){
+          var name = "Nhân";
+          var year = 1993;
+          document.write("Tôi là " + name + " sinh năm " + year);
+    }
+    *document.write("Lập Trình Web"); 
+    
+    *document.getElementById("p2").style.color = "blue";
+
+
+    ==sự kiện===
+    + onclick : 
+    	- document.getElementsByClassName("khung11")[0]( gọi đến class  có tên khun 11).style( thể css) .color( thể cần điều chỉnh ) 
+    	- document.getElementsByClassName("khung11")[0].style.border= " 1px solid black"  
+    + add class( bên css) :
+    	- document.getElementsByClassName("khung11")[0].classList.add('newclass'); ( add thêm class vào khung11)
+    	- nếu muốn xóa thì thay chữ add=remove;
+    *textcontent: để lấy nội dung --> nó sẽ là 1 string vd : 
+    	- parseInt( chuyển chuỗi thành số )
+    	textarea {
+	resize: none; } ==> để k kéo cmt nữa 
+	
+
+
+
+
+
+    		// document.getElementsByClassName("clickme")[0].style.display = "none";
+			// document.getElementsByClassName("clickme")[0].style.background="blue";
+			// document.getElementsByClassName("khung11")[0].classList.add('newclass1');
+			document.getElementsByClassName("khung11")[0].classList.toggle('newclass1');
+			// document.getElementsByClassName("khung11")[0].style.color = "#9ce2ead6";
+			// document.getElementsByClassName("khung11")[0].style.
+			
+			// var socomment = document.getElementById('comments').textContent;
+			// var b= praseInt(socomment)+1;
+			// document.getElementById("comments").innerHTML=b;
+			// document.getElementsByClassName("clickme")[0].value; --> để lấy text trong textarea 
+
+
+			document.getElementsByClassName("clickme")[0].addEventListener('click',function(){
+			document.getElementsByClassName("clickme")[0].style.display = "none";})
+
+			document.getElementsByClassName("clickme")[0].addEventListener('mouseover',function(){
+			document.getElementsByClassName("clickme")[0].style.display = "none";})
+
+			document.getElementsByClassName("clickme")[0].addEventListener('mouseleave',function(){
+			document.getElementsByClassName("clickme")[0].style.display = "none";})
+query
+
+			@media (max-width: 600px) : nếu chiều ngang nhỏ hơn 600px 

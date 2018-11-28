@@ -1,0 +1,126 @@
+ javascript 
+ ( - đặt tên : tên.js 
+   - kết nối với html : trong <head> khai báo <script src="tên.js>") 
++ khai bảo trong hàm <Script> ( bên trong có các starment)
+	-console : thực thi các câu lệnh js trực tiếp 
+		+ alert : hiển thị thông báo 
+		+ console.log("hello") =<< để xuất chuỗi 
+		+ console.log ("hello" + " Thanh") ==> lối chuỗi
+		+"chuỗi hoặc hàm".length ==> đếm độ dài chuỗi
+		+ " chuỗi".toUpperCase()--> in hoa chuỗi
+		+ " chuỗi".toLowsCase()--> in thường 
+
+
+
+
+
+
+
++ biến: để lưu trữ dữ liệu 
+	- var save; // khai bao ô nhớ ( y như khai báo bên C++)
+	save = 7; gan 7 vao save;
+	-string : chuỗi 
+
+
+
+* CÁC CÂU LỆNH ( if else, case ,..)
+	+ if else
+		. var ham=8;
+		  if( ham>7)
+		    console.log("it true")
+		   else
+		   console.log("it not true")
+		. var isweekend=true;
+			if(isweekend == true ){
+			conso.log('đúng');
+			}
+			else{
+			console.log('sai');
+			}
+	+ FOR : - for(đầu vào, điều kiện dừng, lặp )
+			- while()
+			- do...(code) ...while( điều kiện lặp" n chạy cosde trước khi xứt điều kiện)
+			- break : dừng và thoát ngay lập tức khỏi vòng lặp
+			-continue: chỉ bỏ qua một giá trị rồi tiếp tục lặp,	
+	+ function (HÀM ): n giống với void trong c++
+			- funciton(để khai báo hàm ) name( tên hàm) + biến chuyền vào 
+			-vd : function hello(name){
+			console.log('hello'+ name);
+			}
+	- document.write(save);
+
+
+
+* getElenmenByID(id) : timf mot phan tu html va thay doi noi dung phan tu 
+* CÁC THỂ TRONG JAVASCRIPT THUONG DÙNG : 
+	+  document.getElementById("tên class").innerHTML  = "hello" // thay thế nội dung hiển thị ( getElementById)
+	+ document.getElementByID("tên id"). các thể = " bằng yêu cầu"
+		- document.getElementById('demo').style.display='none'"
+	+ window.alert(" để hiển thị thông báo ra màn hình ") 
+
+
+
+
+
+
+
+break...	Terminates a switch or a loop
+
+continue...	Jumps out of a loop and starts at the top
+
+debugger...Stops the execution of JavaScript, and calls (if available) the debugging function
+
+do ... while	Executes a block of statements, and repeats the block, while a condition is true
+
+for	...Marks a block of statements to be executed, as long as a condition is true
+functic...Declares a function
+
+if ... else	Marks a block of statements to be executed, depending on a condition
+
+return....Exits a function
+switch...Marks a block of statements to be executed, depending on different cases
+
+try ... catch	Implements error handling to a block of statements
+
+var...Declares a variable
+
+
+
+****OUTPUT 
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class="anh">
+		<img src="img/14.jpg" alt="">
+		<p>hello</p>
+	</div>
+	
+</body>
+<style >
+	@media (min-width: 600px)
+	{
+		img{
+			display: none;
+
+		}
+		p {
+			color: blue;
+		}
+		.anh {
+			width: 100%;
+			height: 500px;
+			background-color: #3bad8482;
+		}
+	}
+</style>
+</html>

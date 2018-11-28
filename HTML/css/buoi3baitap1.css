@@ -1,0 +1,54 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.khung{
+margin: 0px 400px;
+}
+.khung1 b {
+font-size: 20px;
+}
+.khung1  {
+	width: 500px;
+	height: 400px;
+	padding: 5px;
+	
+}
+.khung1 img {
+	width: 100%;
+	height: 95%;
+}
+
+
+.khung2 {
+	border-top: 1px solid black;
+	width: 500px;
+	height:180px;
+}
+.khung3 {
+	width: 50%;
+	height: 100%;
+	margin:10px 0px 10px 0px;
+	float: left;
+}
+.khung3 img {
+	width: 100%;
+
+
+}
+.khung4 {
+	width: 45%;
+	height: 90%;
+	margin: 10px 10px 10px 0px;
+	float: right;
+
+}
+
+.khung4 a {
+	
+	text-decoration: none;
+	color: black;
+	
+}

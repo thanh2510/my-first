@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body {
+	width: 1365px;
+	height: 644px;
+	position: relative;
+	z-index: 0;
+}
+.khung1 {
+	position: absolute;
+	width: 1365px;
+	height: 100%;
+	background-image: url(../img/28.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	 -webkit-filter: blur(5px);
+    -o-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(2px);
+    z-index: 1;
+}
+.khungul{
+	width: 100%;
+	position: absolute;
+	z-index: 20;
+	/*border: 1px white solid;*/
+	background-color: #00000052;
+
+}
+
+ ul li {
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+ 	padding-left:  50px;
+	display: inline-block;
+	
+	/*padding: 0px 10px 0px 0px;*/
+
+}
+.khungul a {
+	font-size: 20px;
+	color: red;
+	text-decoration: none;
+	z-index: 20;
+
+}
+.khung2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 0px black solid  ;
+	/*border-color: rgba(rgb(255,0,0);opacity:0.6;);*/
+	z-index: 20;
+}
+.khung2 h3 {
+	font-size: 40px;
+	text-align: center;
+	
+}
+.khung3 a{
+	position: absolute;
+	font-size: 30px;
+	/*border: 1px solid black;*/
+	background-color: rgba(rgb(255,0,0.1);opacity:0.6;);
+	z-index: 20;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: black;
+
+}
+.khung3 a:hover {
+	border: none;
+	font-size: 33px;
+	transition: all 0.4s;
+}

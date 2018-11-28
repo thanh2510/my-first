@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Đăng Nhập</title>
+	<link rel="stylesheet" href="css/hocphan65.css">
+</head>
+<body>
+	<div class="body">
+    <div class="khungxam">
+      
+    </div>
+ 
+      <input onclick="hamclick()" type="button" name="ĐangNhap" value="Đăng Nhập">
+
+    <div class ="khungfrom">
+        <form name="khung"> 
+        <h3> Sign In</h3>
+        <label for="email">Email</label>
+        <br>
+             <input id="hamtext" type="text" name="email">
+             <br>
+              <label for="password">Password</label>
+             <br>
+             <input id="hampassword" type="password" name="Password">
+             <p id="hamxuatchuoi" name="hamxuatchuoi"></p>
+             <a name="forgot" href="">Forgot your email or password?</a>
+             <input onclick="hamsubmit()" type="button" name="button" value="Submit">
+             <input type="checkbox" name="checkbox">
+             <p>Remember me</p>
+             <hr>
+             <br>
+             <a name="fb" href="">Login with Facebook</a>
+             <br>
+             <p name="new">New to Netflix?
+             <a name="netflix" >Sign up now</a></p>
+        </form>
+    </div>
+	
+	</div>
+ 
+</body>
+ <script language="Javascript">
+    function hamclick(){
+    
+      document.getElementsByClassName("khungxam")[0].classList.add('khungxam2');
+       document.getElementsByClassName("khungfrom")[0].classList.add('khungblock');
+    }
+    function hamsubmit(){
+      //var socomment = document.getElementById('comments').textContent;
+      var a = document.getElementById('hamtext').textContent;
+      var b = document.getElementById('hampassword').textContent;
+      if( a=="")
+      {
+        document.getElementById("hamxuatchuoi").innerHTML= 'Xin nhập Email ! ' ;
+      }
+      if(b=="")
+      {
+         document.getElementById("hamxuatchuoi").innerHTML= 'Xin nhập Password ! ' ;
+      }
+      if(b.length<8 && a=="")
+      {
+         document.getElementById("hamxuatchuoi").innerHTML= 'Xin nhập email ! ' ;
+      }
+
+
+    }
+  </script>
+</html>

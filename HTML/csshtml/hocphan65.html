@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Đăng Nhập</title>
+	<link rel="stylesheet" href="css/hocphan65.css">
+</head>
+<body>
+	<div class="body">
+		<form name="khung"> 
+			<h3> Sign In</h3>
+			 <label for="email">Email</label>
+			 <br>
+             <input type="text" name="email">
+             <br>
+              <label for="password">Password</label>
+             <br>
+             <input type="password" name="Password">
+             <a name="forgot" href="">Forgot your email or password?</a>
+             <input type="submit" name="submit">
+             <input type="checkbox" name="checkbox">
+             <p>Remember me</p>
+             <hr>
+             <br>
+             <a name="fb" href="">Login with Facebook</a>
+             <br>
+             <p name="new">New to Netflix?
+             <a name="netflix" href="file:///D:/HTML/hocphan66.html?Email=&Ten=&sdt=&password=&newpassword=&submit=Submit">Sign up now</a></p>
+		</form>
+	</div>
+      <script src=""> 
+           function checkinput()
+           {
+            if (document.khung.submit.innerhtml==1 && document.khung.email.text == "") {
+                  alert(" chưa nhập email, xin kiểm tra lại !");
+                  document.khung.email.focus();
+                  return false;
+            }
+           }
+          
+      </script>
+</body>
+</html>

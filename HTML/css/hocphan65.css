@@ -1,0 +1,144 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.body {
+	background-image: url(../img/30.jpg);
+	width: 1350px;
+	height: 640px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 0;
+}
+.khungxam {
+	width: 1350px;
+	height: 640px;
+	position: absolute;
+	background-image: linear-gradient(to right,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+	z-index: 1;
+	opacity: 0;
+	
+}
+ input[name=ĐangNhap]{
+	margin: 20px;
+	padding: 5px 18px;
+	color: white;
+	background-color: red;
+	border-radius: 8px;
+	outline: none;
+	position: absolute;
+	z-index: 20;
+}
+.khungxam2{
+	opacity: 1;
+	transition: 1s;
+	position: absolute;
+	z-index: 1;
+}
+.khungfrom {
+	transform: scale(0);
+}
+.khungblock {
+	/*display: block;*/
+	position: absolute;
+	z-index: 20;
+	transition: 1s;
+	transform: scale(1); /*translate(-50%,-1%);*/
+
+}
+.khungfrom form {
+	z-index: 20;
+	top: 50%;
+	left: 50%;
+	transform: translate(90%,5%) ;
+	width: 462px;
+	height: 591px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: #f5e2e2a1;
+}
+.khungfrom h3 {
+	font-size: 40px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.khungfrom label {
+	margin-left: 30px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+ .khungfrom input[type=text] {
+	width: 80%;
+	margin-left: 30px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 6px 10px;
+}
+.khungfrom input[type=password] {
+	width: 80%;
+	margin-left: 30px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 7px 10px;
+}
+.khungfrom a[name=forgot] {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 30px;
+	text-decoration: none;
+	font-size: 17px;
+	color: blue;
+}
+.khungfrom input[type=button]
+{
+	width: 85%;
+	margin-left: 30px;
+	border-radius: 10px;
+	margin-bottom: 34px;
+	padding: 6px 10px;
+	background-color: red;
+	font-size: 15px;
+	color: white;
+}
+.khungfrom input[type=checkbox]
+{
+	width: 25px;
+	height: 25px;
+	margin-left: 30px;
+	
+}
+.khungfrom p {
+	float: right;
+	margin-right: 260px;
+	font-size: 20px;
+}
+.khungfrom a[name=fb] {
+ 	width: 100%;
+	margin-left: 30px;
+	color: blue;
+	top: 10px;
+	text-decoration: none;
+	
+}
+.khungfrom p[name=new] {
+	width: 100%;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.khungfrom a[name=netflix]{
+	text-decoration: none;
+	color: blue;
+}
+ p[name="hamxuatchuoi"]{
+ 	width: 400px;
+ 	height: 40px;
+ 	/*border: 1px solid black;*/
+	color: red;
+	font-size: 15px;
+	margin-left: 30px;
+	transform: translateX(230px);
+}

@@ -1,0 +1,79 @@
+document.txt
+html : 
+	+ cmt : end + bôi đen đoạn muốn cmt rồi ấn( ctrl + ? )
+	+ thể p(paragrab) để viết đọn văn bản hoặc viết một đoạn tiêu đề ( tóm gọn là có chữ thì nên dùng thể p). Nếu muốn lấy đoạn văn băn mẫu thì lor ctrl space.
+	+ thể h1(heading) : thể hiện tiêu đề ( từ h1 tới h6) 
+	+ div ( tạo và giới hạn một vùng làm việc) : 
+		. div class và div id =" tên thể ( tên thể chữ thường)--> đặt tên thể "
+		. các div n làm việc độc lập với nhau, không liên quan gì nhau : muốn cắt thì dùng overflow: hidden. 
+		. nếu dùng id thì t dùng #
+css : 
+	+ liên kết html và css  : dùng thể link (<link rel="stylesheet" href="">) thì trong đoạn href ta đưa đường dẫn tới css ( css/1.css)
+	+ muốn hiện thể link thì link + tap .
+	để chỉnh sửa hoặc thiết kết thể thì cho thể với dấu ngoặc nhọn vd p{}
+			+ h1{ muốn chỉnh màu có 2 cách : 
+					- color: màu 
+					- hoặc ấn chuột phải vào thể cần chọn rồi tìm dấu 3 chấm rồi tự tìm màu }
+			+ beakground-color: màu nền( để thay đổi nền )
+			+ để giới hạn độ dài của thể h1: 
+			+ div : (.ten class hoặc tên id){
+				.background-color : màu ;
+				. height: chiều cao;
+				.Width: chiều rộng;
+				dùng toán tử . để gọi lại class của thể div
+			}
+	+ thể a + ctrl space : lấy đường dẫn link . ( bỏ gạch chân bằng css, trỏ tới thể muốn làm : text-deconration : none )
+	+ muốn đổi font chữ : lên google tìm gone : lấy link từ google, đặt dưới link css trong html, thêm font family trong css 
+	+ img + tab : link ảnh ( nhớ lấy đúng link )
+	+ * {
+	margin: 0px;
+	padding: 0px;
+	xét về mặc định ( căn lề )
+	}
+	+ margin: toppx leftpx bottonpx ringtpx;
+	+ border px solid màu
+	+ float: bên trai bên phải cho hai khung div 
+	3 cái này có float là như nhau nywung gọi đến từng cái riêng 
+	+ ul ( hoặc 0l) : mỗi một ul n hiển thị một list : để liệt kê 
+		- để liên kết với css : qua css ul li { dùng thể trong css} ( nếu dùng list-style: none thì n sẽ k có dấu chấm ở đầu ) float left : margin để cách ra ) 
+		- dùng inline-block : sẽ để ul xoay ngang 
+		li:hover {
+	background-color: red;==> di chuột vào thì đổi background 
+}
+	+ ul 
+	+ căn giữa màn hình : with và margin : auto ;
+	+hover : để di chuột vào 
++ thuộc tính ( tách thuộc tính layer ) position : relative ( cha ) 
+			 position : absoluve ( con )==> n sẽ cho cái thằng con lên trên thằng cha ( điều chỉnh cái thươc tính con chạy đi đâu cũng đc trong cha )
+			 - thuộc tính chính giữa : transfrom : để di chuyển một tap ( như div) :translateX hoặc Y  (+ X : là ngang + Y : là dọc )   " nếu để % thì n sẽ là %của con"
++ background-imges : url(../ link )
++background-reapit : no-repat;
++background-size: cover;
++ oparcity:0 la an 
++ oparcity:1 la hien 
++ margin: auto( div vào giữa)
+
+cho cái wieth là bao nhiêu có margin là auto : thì n sẽ nằm giữa
++ body radius: cong 
+
++ (h1::after {content: " /"} )--> có nghĩa là sau các h1 thì có "/" và ta có thể thêm một số thể css nữa 
+
+*Hover (di chuột) : + transfrom : scale ( phóng to ảnh theo tỷ lệ), transtion : giây ( cho đẹp )
+					+ transfrom : translate( di chuyển theo chiều X và  Y )
+					+ tramsfrom : rotate ( quay ảnh theo độ"deg")
+					+ transfrom-origin : quay theo tâm ( top, left,..) 
+*font-awesome ( icons ): + download file 
+						 + gọi tới biểu tượng đang dùng bằng thể i 
+						 + icon bản chất là một cái chữ : nên t dùng được tất cả các thuộc tính của chữ ( font-size, color)
+*background-img : -webkit-linear-grandient(đổ bao nhiêu độ,tiếp đó là phần trăm của các độ )
+*z-index: càng lớn càng hiện lên trước 
+
+
+
+
+
+animation : tên 2s forward
+overfl
+:nothover ( là rê chuột ra )  
+cursor: pointer;
+box-shadow : 10px 10px 10px màu ; ( thuộc tính làm mờ, đổ bóng )

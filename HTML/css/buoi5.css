@@ -1,0 +1,171 @@
+p{
+	width: 30px;
+}
+
+/*img:hover {
+	transform: rotate(20deg);
+}
+img {
+	transition: 1s;
+
+}
+.icon i {
+	color: red;
+	font-size: 40px;
+	float: left;
+}
+.icon {
+	width: 300px;
+	height: 38px;
+	float: left;
+}*/
+/*.content {
+	width: 500px;
+	height: 500px;
+	position: relative;
+
+}
+.content img{
+	width: 100%;
+	height: 100%;
+	
+}
+.text h2{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.text p {
+	width: 100%;
+	top: 45%;
+	position: absolute;
+	left: 35%;
+	color: white;
+	transition: 2s;
+	opacity: 0;
+}
+.hinhvuong {
+	width: 60%;
+	height: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	border: 2px solid white;
+	position: absolute;
+	
+	transition: 1s;
+}
+.maunhat {
+	width: 100%;
+	height: 100%;
+	background-color: #69595980;
+	top: 0;
+	position: absolute;
+	opacity: 0;
+	transition: 1s;
+}
+.content:hover .hinhvuong{
+	transform:translate(-50%, -50%) scale(1);
+	
+}
+.content:hover .text p{
+	opacity: 1;
+}
+.content:hover .maunhat{
+	opacity: 1;
+}
+.rgba {
+	width: 100%;
+
+}
+
+
+
+*/
+
+
+
+
+.content2 {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	z-index: 0;
+
+}
+.content2 img{
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+	
+}
+.text2 h2{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	z-index: 20;
+}
+.text2 p {
+	width: 100%;
+	top: 45%;
+	position: absolute;
+	left: 35%;
+	color: white;
+	transition: 2s;
+	opacity: 0;
+	z-index: 20;
+}
+.hinhvuong2 {
+	width: 60%;
+	height: 60%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	border: 2px solid white;
+	position: absolute;
+	
+	transition: 1s;
+}
+.maunhat2 {
+	width: 100%;
+	height: 100%;
+	background-color: #69595980;
+	top: 0;
+	position: absolute;
+	opacity: 0;
+	transition: 1s;
+}
+.content2:hover .hinhvuong2{
+	transform:translate(-50%, -50%) scale(1);
+	
+}
+.content2:hover .text2 p{
+	opacity: 1;
+}
+.content2:hover .maunhat2{
+	opacity: 1;
+}
+.content2:hover img{
+	transform: rotateX(360deg);
+
+}
+.rgba {
+	transition: 1s;
+	width: 100%;
+	height: 100%;
+	background-image: -webkit-linear-gradient(30deg,#ff00006b 0%,#0000ff52 50%,#00800045 100% );
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+
+}
+.content2:hover .rgba{
+	opacity: 1;
+}

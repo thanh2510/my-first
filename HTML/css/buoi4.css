@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.khung {
+width: 1351px;
+position: relative;
+}
+.khungnho {
+	width: 100%;
+}
+.khunga{
+	margin-left: 50px;
+	float: left;
+
+}
+
+.khunga b{
+	margin-top: 10px;
+	font-size: 40px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.khungb {
+	float: right;
+	
+}
+ul li {
+	display: inline-block;
+}
+.khungb li{
+	padding: 20px 45px 0px 30px;
+
+}
+.khung1{
+	padding-top: 10px;
+	position: relative;
+	top:50px;
+	width:100%;
+	height: 700px;
+	background-image: url(../img/10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.text  {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.text p{
+	font-size: 30px;
+	text-align: center;
+}
+.text2 {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+}
+.text2 p{
+	font-size: 25px;
+}
+.text2 p:hover {
+	color: blue;
+	transition: all 01s;
+}

@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.count {
+	text-align: center;
+	margin-top: 20px;
+	animation: 2s divao forwards ;
+}
+.onme a {
+	padding: 20px 20px;
+	text-decoration: none;
+	border: 1px solid green;
+	background-color: green;
+	color: white;
+	
+}
+/*.count:hover .onme{
+	
+}*/
+
+@keyframes divao {
+	from { 
+	transform: translateX(-50px); }
+	to {
+		transform: translateX(0px);
+	}
+}

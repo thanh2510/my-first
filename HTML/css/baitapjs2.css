@@ -1,0 +1,59 @@
+
+.Donate {
+	height: 54px;
+	width: 260px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	font-size: 18px;
+   background-color: #9cc700;
+   transition: 1s;
+}
+.Home {
+	
+	height: 100%;
+	width: 900px;
+}
+.khunghome ul li{
+	cursor: pointer;
+	margin-top: 15px;
+	font-size: 18px;
+	height: 100%;
+	color: white;
+	text-align: center;
+	margin-left: 38px;
+	display: inline-block;
+
+}
+.khunghome ul li:hover {
+
+	border-bottom: 2px solid #9cc700;
+}
+.khungde{
+	position: absolute;
+	top: 0;
+	right: 231px;
+	transform: rotate(180deg);
+	border-left: 30px solid transparent;
+  border-bottom: 54px solid  #9cc700;
+  border-right: 30px solid transparent;
+  width: 0; height:0;
+  opacity: 1;
+}
+.Donate p{
+	 color: white;
+	 padding-top: 17px;
+	  cursor: pointer;
+	  font-weight: bold;
+}
+.Donate:hover {
+	background-color: #00000082;
+	
+}
+.Donate:hover p{
+	color: #9cc700;
+}
+.Donate:hover .khungde{
+	opacity: 0;
+}

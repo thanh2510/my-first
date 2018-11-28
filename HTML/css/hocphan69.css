@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.theloaiphim {
+	width: 1363px;
+	padding-bottom: 40px;
+	background-color: #141414;
+}
+.theloaiphim ul li {
+	display: inline-block;
+	padding-left: 20px;
+	
+}
+.theloaiphim a {
+	text-decoration: none;
+	color: white;
+}
+.theloaiphim input[name=text] {
+	border-radius: 5px;
+	height: 25px;
+	width: 344px;
+	text-align: center;
+}
+.theloaiphim input[name=text]:focus {
+	background-color: #fdf0f0;
+	color: lightblue;
+
+}
+.theloaiphim b {
+	font-size: 30px;
+	color: red;
+}
+.theloaiphim ul li:nth-child(7){
+	margin-left: 150px;
+}
+.theloai li:hover {
+list-style: none;
+}
+
+.background {
+	width: 1363px;
+	height: 600px;
+	background-color: #000000bd;
+	position: relative;
+	z-index: 0;
+
+}
+.anhbackground1 {
+	padding-top: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	float: left;
+	background-image: url(../img/33.jpg);
+	background-image: rgba(255, 0, 0, 0.5);
+	z-index: 1;
+}
+.anhbackground2 {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-image: linear-gradient(to right,rgba(0,0,0,.8) 20%,rgba(0,0,0,0) 85%);
+}
+.anhbackground3 {
+	position: absolute;
+	z-index: 30;
+	width: 100%;
+	float: top;
+	color: white;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+.anhbackground3 h2 {
+	font-size: 40px;
+}
+.anhbackground3 p {
+	color: #eacdcddb;
+}
+.anhbackground3 a {
+	color: #eacdcddb;
+}
+.anhbackground3 a:hover {
+	width: 60px;
+	color: #fb7a7a;
+	padding-right: 20px;
+	border: 1px #fb7a7a solid;
+	border-radius: 5px;
+
+}
+ul li{
+	display: inline-block;
+} 
+.gioithieu {
+	padding: 80px 90px 0px 40px;
+	color: #f5e4e4;
+	position: absolute;
+	z-index: 32;
+	font-size: 22px;
+}
